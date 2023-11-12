@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-4 p-8">
@@ -6,6 +8,7 @@ export default function Home() {
       </div>
       <div>
         Website coming soon
+        <Link href={'/privacy-policy'}>PEEPEEPOOPOO</Link>
       </div>
     </main>
   )
