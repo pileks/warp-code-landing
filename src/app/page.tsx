@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   const text = encodeURIComponent(`Hello!`);
-  const phone = encodeURIComponent(`+385 91 161 4291`);
+  const phone = encodeURIComponent(`385911614291`);
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-8">
       <div className="text-4xl">Warp Code ltd</div>
